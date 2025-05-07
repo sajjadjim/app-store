@@ -1,0 +1,560 @@
+[
+    {
+      "id": "app001",
+      "name": "Programming Hero",
+      "developer": "Programming Hero Ltd.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnu16CGAhG62yywplWVEzdENI5HgZ2BY2UAQ&s",
+      "banner": "https://play-lh.googleusercontent.com/edmBVFMS9fhuZycs2I6jCO7vGxhH434upOADR2e3x5Wi_s6Et4vcFY0gYs0q_B0qFS8=s96-rw",
+      "downloads": 3500000,
+      "category": "Education",
+      "rating": 5,
+      "description": "Programming Hero is a fun and interactive way to learn programming. Whether you're a beginner or looking to brush up your skills, this app makes learning to code exciting and practical.",
+      "features": [
+        "Interactive coding lessons",
+        "Real-world projects",
+        "Gamified learning experience"
+      ],
+      "reviews": [
+        {
+          "user": "coder_nadia",
+          "rating": 5,
+          "comment": "Best app for beginners! The lessons are super easy to follow and engaging."
+        }
+      ]
+    },
+  
+  
+    {
+      "id": "app012",
+      "name": "ChatConnect",
+      "developer": "Connectify Inc.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZpph2tvOC-5no_cHyh-dCHehati9FwdpBTQ&s",
+      "banner": "https://play-lh.googleusercontent.com/R-L05nHOF7Tj1HkwsFH6pbrsfpMlyhKp3srq2O8vbIalY8nnaMJox_CjbysWBg-EXLsG=s96-rw",
+      "downloads": 8000000,
+      "category": "Social",
+      "rating": 5,
+      "description": "Stay connected with friends and make new ones with ChatConnect.",
+      "features": [
+        "Private messaging",
+        "Video calls",
+        "Custom emojis"
+      ],
+      "reviews": [
+        {
+          "user": "social_lover",
+          "rating": 4,
+          "comment": "Clean UI and reliable connection!"
+        }
+      ]
+    },
+    {
+      "id": "app013",
+      "name": "PicShare",
+      "developer": "Snapvision Ltd.",
+      "thumbnail": "https://play-lh.googleusercontent.com/2JQgtBLRsORldQBN7XY8Kuk3Eb4OCZJHN17NQvVbleAP_DaY_9pBBjVy-X6pMbHhVBhDQNEbnXk=w648-h364-rw",
+      "banner": "https://play-lh.googleusercontent.com/PKYtXB-tZdpaMkXFCfzHcoRzedu22mDC4NVcWZXMuiGTOP3EUPi0ZRbU0fB__Kq6XXA=w480-h960-rw",
+      "downloads": 12000000,
+      "category": "Social",
+      "rating": 5,
+      "description": "Share your life moments in pictures and stories.",
+      "features": [
+        "Photo filters",
+        "Stories",
+        "Hashtag trends"
+      ],
+      "reviews": [
+        {
+          "user": "photo_jenny",
+          "rating": 4.3,
+          "comment": "Better than Insta for real connections!"
+        }
+      ]
+    },
+    {
+      "id": "app014",
+      "name": "BuzzTalk",
+      "developer": "Talkify Inc.",
+      "thumbnail": "https://i.scdn.co/image/ab67616d0000b2731a75d769811132888b5b9982",
+      "banner": "https://play-lh.googleusercontent.com/f_FC7hCnDDIXmk5DqQQsti1KI6BR2pMpqwSYk479966LNxRf-jCV1-hLAO5H1_DSeg=w480-h960-rw",
+      "downloads": 5000000,
+      "category": "Social",
+      "rating": 4.3,
+      "description": "BuzzTalk is your place to follow news, chat, and engage with viral content.",
+      "features": [
+        "Trending topics",
+        "Group chats",
+        "Voice rooms"
+      ],
+      "reviews": [
+        {
+          "user": "trend_guru",
+          "rating": 4,
+          "comment": "Great for staying updated!"
+        }
+      ]
+    },
+    {
+      "id": "app015",
+      "name": "Circle",
+      "developer": "Circle Media",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOTYxTtBMIzmLCXRuTIezRN1fSfEKzwIOuBg&s",
+      "banner": "https://play-lh.googleusercontent.com/rgtIgA5KPHAwsVPKEGOPzFVxCEPmstEODoWS8hM7CLhk1O2ddZEzIZQsKq7WtBjm3xLj=w480-h960-rw",
+      "downloads": 6500000,
+      "category": "Social",
+      "rating": 4.7,
+      "description": "Join vibrant communities and groups with shared interests.",
+      "features": [
+        "Community boards",
+        "Live streams",
+        "Polls and Q&A"
+      ],
+      "reviews": [
+        {
+          "user": "groupie92",
+          "rating": 5,
+          "comment": "Feels like Reddit and Facebook had a baby!"
+        }
+      ]
+    },
+  
+    {
+      "id": "app016",
+      "name": "Focus To-Do",
+      "developer": "Productiva",
+      "thumbnail": "https://play-lh.googleusercontent.com/WosiqZkxzGDMaszz6hYdYmhhY9pJJD3TV51SHPV51xTDJWq-ZvZez_Qr83e1h6Xhmd8=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/MuJSIcw7h8iuLYtLGhM8p50D4ijxkiENmh3Fc9GOdkeIv2E8QFv544fO27X8P4QKCQ=w480-h960-rw",
+      "downloads": 3000000,
+      "category": "Productivity",
+      "rating": 4.5,
+      "description": "Stay focused with Pomodoro and to-do list integration.",
+      "features": [
+        "Pomodoro timer",
+        "Task scheduler",
+        "Focus analytics"
+      ],
+      "reviews": [
+        {
+          "user": "busy_bee",
+          "rating": 5,
+          "comment": "Boosted my work productivity big time."
+        }
+      ]
+    },
+    {
+      "id": "app017",
+      "name": "NoteMate",
+      "developer": "Keepify",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbuMNuyXpzdPBeYDm1kfnrI17jHWfdmJewOQ&s",
+      "banner": "https://play-lh.googleusercontent.com/3Wr_nlhRHjIGfPd-BNUbgffLfxPPqNW8GFPscqnQ4t2aPRyKlFMuXT4yhb-PSMsHgss=w480-h960-rw",
+      "downloads": 4000000,
+      "category": "Productivity",
+      "rating": 5,
+      "description": "Quickly jot down and organize your ideas anytime.",
+      "features": [
+        "Cloud sync",
+        "Voice notes",
+        "Reminders"
+      ],
+      "reviews": [
+        {
+          "user": "journal_jake",
+          "rating": 4,
+          "comment": "Clean interface, great for daily use."
+        }
+      ]
+    },
+
+  
+    {
+      "id": "app021",
+      "name": "Clash of clan",
+      "developer": "Super cell",
+      "thumbnail": "https://play-lh.googleusercontent.com/qkMIWX-JY6TS-9UEsvWc05x-6XZOhsCS5HHXHDZJGVh6Gv-5W-t7ghUyhD4X-uWcSD4=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/LByrur1mTmPeNr0ljI-uAUcct1rzmTve5Esau1SwoAzjBXQUby6uHIfHbF9TAT51mgHm=s96-rw",
+      "downloads": 5000000,
+      "category": "Games",
+      "rating": 4.7,
+      "description": "Explore galaxies and complete missions in this space RPG.",
+      "features": [
+        "Story-based missions",
+        "Ship upgrades",
+        "PvP mode"
+      ],
+      "reviews": [
+        {
+          "user": "astro_gamer",
+          "rating": 5,
+          "comment": "Great graphics and story!"
+        }
+      ]
+    },
+    {
+      "id": "app022",
+      "name": "AdventureQuest 3D",
+      "developer": "Brainy Studios",
+      "thumbnail": "https://play-lh.googleusercontent.com/B-HEXCwJegFfAX1lXxP1Bqc2QB4j1HAv1WTOREJhRlvLRoKKoWhZX_FItsG4BP06Gw=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/13bQg64K3FcFVC9M9tym_oYsPsKJKFQYSBnEEQkKpxo5aweCpjxDHTiZbFoNZKxzPhM=s96-rw",
+      "downloads": 3000000,
+      "category": "Games",
+      "rating": 5,
+      "description": "Solve clever puzzles to unlock beautiful scenery.",
+      "features": [
+        "Brain teasers",
+        "Daily challenges",
+        "Soothing music"
+      ],
+      "reviews": [
+        {
+          "user": "logic_love",
+          "rating": 5,
+          "comment": "Perfect for relaxing yet challenging gameplay."
+        }
+      ]
+    },
+    {
+      "id": "app023",
+      "name": "BattleField Rush",
+      "developer": "War Games Studio",
+      "thumbnail": "https://play-lh.googleusercontent.com/c5qbzlzAhXHUUalhCZiSYkCGiT5XUT1-a3CgEe6uWlcPsOD5DRjN_kohM4gnWfiWj0k=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/e0n9qH1A8BfqTSAXDzJ5GRc08fqtvYpl-9CyJOBMm5zpXaPHg1YG5zJyvQddiZGv=s96-rw",
+      "downloads": 7000000,
+      "category": "Games",
+      "rating": 4.4,
+      "description": "Multiplayer FPS game with realistic combat maps.",
+      "features": [
+        "Real-time multiplayer",
+        "Team deathmatch",
+        "Tactical modes"
+      ],
+      "reviews": [
+        {
+          "user": "fps_addict",
+          "rating": 4,
+          "comment": "Solid shooter experience."
+        }
+      ]
+    },
+    {
+      "id": "app024",
+      "name": "Farmville Reborn",
+      "developer": "ZFarm Inc.",
+      "thumbnail": "https://play-lh.googleusercontent.com/VKbB37lPK-8bBEphn4GWTDQEQ894CEuKDJIqBtbVYXTJaOvCC5Sv3h9E5aumrLjiCg=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/i3B1cJu20IvR_Ji2q6Jtde3eS7-uRIDmsfJYGPdRkorI3BPRve1oCHOUvCBoHLqCsA=s96-rw",
+      "downloads": 6000000,
+      "category": "Games",
+      "rating": 4.5,
+      "description": "Plant, harvest and grow your farm in a relaxing rural world.",
+      "features": [
+        "Seasonal events",
+        "Decorations",
+        "Animal care"
+      ],
+      "reviews": [
+        {
+          "user": "farmer_joy",
+          "rating": 5,
+          "comment": "Takes me back to the old days!"
+        }
+      ]
+    },
+    {
+      "id": "app025",
+      "name": "Run",
+      "developer": "Sprint Games",
+      "thumbnail": "https://play-lh.googleusercontent.com/zG13gMv0FOLDFZIL1IA1AtUUFmFqyIEa-vrMk6FHM8IgYMn_0ATLQ9WG4Lda6Ydm4R0=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/A97ygyZMgnoapGfPhWZn9QBMsrskPuPQmJqeEtROZWnbQRfAOZZlhtP-UBWxaKtMI6U=w480-h960-rw",
+      "downloads": 4500000,
+      "category": "Games",
+      "rating": 5,
+      "description": "Fast-paced endless runner with mystical power-ups.",
+      "features": [
+        "Speed boosts",
+        "Leaderboards",
+        "Unlockable characters"
+      ],
+      "reviews": [
+        {
+          "user": "runner_guy",
+          "rating": 5,
+          "comment": "Addictive and smooth!"
+        }
+      ]
+    },
+    {
+      "id": "app026",
+      "name": "Facebook",
+      "developer": "Meta Platforms, Inc.",
+      "thumbnail": "https://about.fb.com/wp-content/uploads/2020/05/NRP-the_new_facebook.com-final-1.jpg?fit=1920%2C1080",
+      "banner": "https://play-lh.googleusercontent.com/KCMTYuiTrKom4Vyf0G4foetVOwhKWzNbHWumV73IXexAIy5TTgZipL52WTt8ICL-oIo=s96-rw",
+      "downloads": 5000000000,
+      "category": "Social",
+      "rating": 4.1,
+      "description": "Connect with friends and the world around you on Facebook.",
+      "features": [
+        "News feed",
+        "Groups",
+        "Marketplace"
+      ],
+      "reviews": [
+        {
+          "user": "social_ben",
+          "rating": 4,
+          "comment": "Still a top platform for connections."
+        }
+      ]
+    },
+    {
+      "id": "app027",
+      "name": "TikTok",
+      "developer": "TikTok Pte. Ltd.",
+      "thumbnail": "https://play-lh.googleusercontent.com/R7rB8Xy1tINoEADiM7hOrWvFlvntTRb-L6eMuZvgBzRIS-WSaT3CAsoNnu4EYa4or2I=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA=w480-h960-rw",
+      "downloads": 3000000000,
+      "category": "Social",
+      "rating": 4.4,
+      "description": "Create and share short videos with the world.",
+      "features": [
+        "Video editor",
+        "Music library",
+        "Live streams"
+      ],
+      "reviews": [
+        {
+          "user": "dancer_sam",
+          "rating": 5,
+          "comment": "Endless creativity and fun!"
+        }
+      ]
+    },
+    {
+      "id": "app028",
+      "name": "WhatsApp",
+      "developer": "Meta Platforms, Inc.",
+      "thumbnail": "https://play-lh.googleusercontent.com/ey21SzFwDygWgKaRggLUbdIyu2tglKBpFwGkLVHFmJOM8m01Oek3bi3fJ-7HVsC9XOU=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN=w480-h960-rw",
+      "downloads": 5000000000,
+      "category": "Productivity",
+      "rating": 4.5,
+      "description": "Simple, reliable messaging and calling, available on phones all over the world.",
+      "features": [
+        "Voice calls",
+        "Text messages",
+        "End-to-end encryption"
+      ],
+      "reviews": [
+        {
+          "user": "chat_master",
+          "rating": 5,
+          "comment": "Best messaging app out there."
+        }
+      ]
+    },
+    {
+      "id": "app029",
+      "name": "Garena Free Fire",
+      "developer": "Garena International I",
+      "thumbnail": "https://play-lh.googleusercontent.com/gEC9nhJSSFgGl-ngFXsUFqr-sFaLBGMFGBUaXy-Bb1T-wGTBgpBJn4qbRt8mdryRdVg=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/6llpraFcTI0rEUuRpWEG9NWWblvm106y5JXcDzu60ACuaUYDD3i70a-p9_QM65NsGDE=s96-rw",
+      "downloads": 1000000000,
+      "category": "Games",
+      "rating": 4.2,
+      "description": "A fast-paced battle royale game.",
+      "features": [
+        "Survival mode",
+        "Character upgrades",
+        "Team play"
+      ],
+      "reviews": [
+        {
+          "user": "ff_pro",
+          "rating": 5,
+          "comment": "Adrenaline-pumping gameplay!"
+        }
+      ]
+    },
+    {
+      "id": "app030",
+      "name": "PUBG Mobile",
+      "developer": "Tencent Games",
+      "thumbnail": "https://play-lh.googleusercontent.com/dDXaVOALS1bQzjs6b_un4Ey6bmMLTJFUNVJXjEdAuZsPldRhZo-AGVqOOgjodRsgqHs=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/zCSGnBtZk0Lmp1BAbyaZfLktDzHmC6oke67qzz3G1lBegAF2asyt5KzXOJ2PVdHDYkU=s96-rw",
+      "downloads": 1000000000,
+      "category": "Games",
+      "rating": 4.3,
+      "description": "Ultimate battle royale shooter with high-end graphics.",
+      "features": [
+        "Realistic gameplay",
+        "Team squads",
+        "Custom maps"
+      ],
+      "reviews": [
+        {
+          "user": "sniper_x",
+          "rating": 5,
+          "comment": "Still one of the best shooters!"
+        }
+      ]
+    },
+    {
+      "id": "app031",
+      "name": "X",
+      "developer": "X Corp.",
+      "thumbnail": "https://play-lh.googleusercontent.com/huBZ5ZaKXtBvqXQMtwp9SU9LeH6KvIqP7sMBpXQkB9mHjjUQlYK2t4Rn_RsdLFgeFEPw=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/A-Rnrh0J7iKmABskTonqFAANRLGTGUg_nuE4PEMYwJavL3nPt5uWsU2WO_DSgV_mOOM=w480-h960-rw",
+      "downloads": 1000000000,
+      "category": "Social",
+      "rating": 4.0,
+      "description": "See what\u2019s happening in the world right now.",
+      "features": [
+        "Tweets",
+        "Spaces",
+        "Trends"
+      ],
+      "reviews": [
+        {
+          "user": "news_junkie",
+          "rating": 4,
+          "comment": "Quick news updates and debates!"
+        }
+      ]
+    },
+    {
+      "id": "app032",
+      "name": "YouTube",
+      "developer": "Google LLC",
+      "thumbnail": "https://play-lh.googleusercontent.com/edAbmqXj55MMU5FjbL6QvMNAQQlpxSsnwRHHzPWVqNOYZ3zXaeSuRJftLn6Qrsc-IQuaqDWJe3g=w1296-h728-rw",
+      "banner": "https://play-lh.googleusercontent.com/6am0i3walYwNLc08QOOhRJttQENNGkhlKajXSERf3JnPVRQczIyxw2w3DxeMRTOSdsY=s96-rw",
+      "downloads": 10000000000,
+      "category": "Productivity",
+      "rating": 4.6,
+      "description": "Enjoy your favorite videos and upload your own.",
+      "features": [
+        "Subscriptions",
+        "Shorts",
+        "Monetization"
+      ],
+      "reviews": [
+        {
+          "user": "vid_watcher",
+          "rating": 5,
+          "comment": "Can't go a day without it!"
+        }
+      ]
+    },
+    {
+      "id": "app033",
+      "name": "Gmail",
+      "developer": "Google LLC",
+      "thumbnail": "https://play-lh.googleusercontent.com/3Jv3n5Fr18SzBePoA2ygE3SAFJRGAB2QRrOGth_WCzE9Mko1AHLM9zK3p_fjOYTGovpt=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/KSuaRLiI_FlDP8cM4MzJ23ml3og5Hxb9AapaGTMZ2GgR103mvJ3AAnoOFz1yheeQBBI=w480-h960-rw",
+      "downloads": 10000000000,
+      "category": "Productivity",
+      "rating": 4.3,
+      "description": "Secure, smart, and easy-to-use email.",
+      "features": [
+        "Spam filtering",
+        "Smart replies",
+        "Priority inbox"
+      ],
+      "reviews": [
+        {
+          "user": "email_pro",
+          "rating": 5,
+          "comment": "Reliable and clean interface."
+        }
+      ]
+    },
+    {
+      "id": "app034",
+      "name": "ChatGPT",
+      "developer": "OpenAI",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmtZLqj3PpQtZeNkewOYEtphPdLtDly7PqoQ&s",
+      "banner": "https://play-lh.googleusercontent.com/lmG9HlI0awHie0cyBieWXeNjpyXvHPwDBb8MNOVIyp0P8VEh95AiBHtUZSDVR3HLe3A=w480-h960-rw",
+      "downloads": 100000000,
+      "category": "Productivity",
+      "rating": 4.8,
+      "description": "Your AI assistant for work, learning, and fun.",
+      "features": [
+        "Writing help",
+        "Learning tool",
+        "Instant answers"
+      ],
+      "reviews": [
+        {
+          "user": "prompt_master",
+          "rating": 5,
+          "comment": "Game changer for research and writing!"
+        }
+      ]
+    },
+    {
+      "id": "app035",
+      "name": "Google Photos",
+      "developer": "Google LLC",
+      "thumbnail": "https://play-lh.googleusercontent.com/txZg8DG_fuYDdhiH0haLYd6zHpokFpzXP9gb_3ljVHI8VeVzCkMy-YFZ9-fxXM_cHuwl=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA=w480-h960-rw",
+      "downloads": 5000000000,
+      "category": "Productivity",
+      "rating": 4.5,
+      "description": "Automatically backup and organize your photos and videos.",
+      "features": [
+        "Cloud storage",
+        "AI search",
+        "Albums"
+      ],
+      "reviews": [
+        {
+          "user": "photo_saver",
+          "rating": 5,
+          "comment": "Never lost a photo again!"
+        }
+      ]
+    },
+    {
+      "id": "app036",
+      "name": "10 Minutes Scholl",
+      "developer": "10 Minutes LLC",
+      "thumbnail": "https://play-lh.googleusercontent.com/DqSg0GcVwmXv_5u2-QC0hXOxsS5Aue6C8ObPnZO8RiqGRp9-XLpoJ4mr2NJ7inP-3vH4=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/TS1WqJu0eqQ5RkGw5TkVEJ7fxPLyKgDu0UHc7E9Av5dntMvB3uVWFm7_bu0jkFFla20=w480-h960-rw",
+      "downloads": 5000000000,
+      "category": "Education",
+      "rating": 4.5,
+      "description": "Automatically backup and organize your photos and videos.",
+      "features": [
+        "Cloud storage",
+        "AI search",
+        "Albums"
+      ],
+      "reviews": [
+        {
+          "user": "photo_saver",
+          "rating": 5,
+          "comment": "Never lost a photo again!"
+        }
+      ]
+    },
+    {
+      "id": "app037",
+      "name": "Ostad",
+      "developer": "Ostad LLC",
+      "thumbnail": "https://play-lh.googleusercontent.com/jVS7sp891VsIeIKxAI8d9ch6Kz0C6Lr2Jf2WEJPZPF-wt82ezlASW5sIzasrlNufVNc=w1052-h592-rw",
+      "banner": "https://play-lh.googleusercontent.com/iharsQKNsMkyC07joRy7wriHZkSdwnDle1Fnd-DQDcXuEXkVOS3pmJMjmsz9i6Eu=w480-h960-rw",
+      "downloads": 5000000000,
+      "category": "Education",
+      "rating": 4.5,
+      "description": "Automatically backup and organize your photos and videos.",
+      "features": [
+        "Cloud storage",
+        "AI search",
+        "Albums"
+      ],
+      "reviews": [
+        {
+          "user": "photo_saver",
+          "rating": 5,
+          "comment": "Never lost a photo again!"
+        }
+      ]
+    }
+  ]
+  
