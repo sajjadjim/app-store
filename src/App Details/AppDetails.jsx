@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import Footer from '../Components/Footer/Footer';
-
+import { Link } from 'react-router';
+import { FaArrowAltCircleLeft } from "react-icons/fa";
 function AppDetails() {
   const { id } = useParams();
   const data = useLoaderData();
@@ -44,6 +45,7 @@ function AppDetails() {
   return (
     <div>
       <main className="w-10/12 mx-auto my-10">
+      <Link to='/app'><FaArrowAltCircleLeft className='md:block hidden h-10 w-auto'/></Link>
         {/* <p>{app.name}</p> */}
         <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-2xl overflow-hidden">
           <img
