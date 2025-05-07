@@ -7,6 +7,7 @@ import SignUpPage from "../App Pages/SignUpPage";
 import PrivateRoute from "../Provider/PrivateRoute";
 import UserProfile from "../UserProfile/UserProfile";
 import Help from "../Help/Help";
+import Root from "../Root/Root";
 
 const Routers = createBrowserRouter([
     {
@@ -14,9 +15,14 @@ const Routers = createBrowserRouter([
       Component:Home,
       children:[
         {
+        index: true,
+        path:'/',
+        Component:Root
+        },
+        {
           path:'/app'
           ,Component:AppPages,
-          loader: ()=>fetch('/app.json')
+          loader: ()=>fetch('/public/app.json')
         }
       ]
     },
@@ -25,7 +31,7 @@ const Routers = createBrowserRouter([
       ,element:<PrivateRoute>
         <AppDetails></AppDetails>
       </PrivateRoute>,
-      loader: ()=> fetch('/app.json')
+      loader: ()=> fetch('/public/app.json')
     },
     {
       path:'/login'

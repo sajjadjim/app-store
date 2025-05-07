@@ -1,26 +1,32 @@
-import React, { use } from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router';
 import { AuthContext_File } from '../Provider/AuthProvider';
 
 const SignUpPage = () => {
+  const { createUser, setUser } = useContext(AuthContext_File);
 
-  const {createUser , setUser} = use(AuthContext_File)
-//  create an handlle define the user information take 
-const handleSignUp =(e)=>{
-e.preventDefault()
-// const name = e.target.name.value
-// const photoUrl = e.target.photoUrl.value
-const email = e.target.email.value 
-const password = e.target.password.value 
-// console.log({name , photoUrl ,email , password})
-createUser(email , password).then((result)=>{
- const user =result.user;
- setUser(user)
- alert("Sign up done successfully ....")
-}).catch((error)=>{
-  alert(error)
-})
-} 
+  const handleSignUp = (e) => {
+    e.preventDefault();
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+
+    // Password validation: must contain uppercase, lowercase, and a number
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$/;
+    if (!passwordRegex.test(password)) {
+      alert('Password must include at least one uppercase letter, one lowercase letter, and one number.');
+      return;
+    }
+
+    createUser(email, password)
+      .then((result) => {
+        const user = result.user;
+        setUser(user);
+        alert('Sign up done successfully.');
+      })
+      .catch((error) => {
+        alert(error.message);
+      });
+  };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
@@ -30,9 +36,9 @@ createUser(email , password).then((result)=>{
           <div>
             <label className="block text-gray-600 text-sm mb-1">Full Name</label>
             <input
-            name='name'
+              name="name"
               type="text"
-              placeholder="your name"
+              placeholder="Your name"
               required
               className="w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
@@ -40,7 +46,7 @@ createUser(email , password).then((result)=>{
           <div>
             <label className="block text-gray-600 text-sm mb-1">Photo URL</label>
             <input
-            name='photoUrl'
+              name="photoUrl"
               type="url"
               placeholder="https://example.com/photo.jpg"
               className="w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -49,7 +55,7 @@ createUser(email , password).then((result)=>{
           <div>
             <label className="block text-gray-600 text-sm mb-1">Email</label>
             <input
-            name='email'
+              name="email"
               type="email"
               required
               placeholder="you@example.com"
@@ -59,7 +65,7 @@ createUser(email , password).then((result)=>{
           <div>
             <label className="block text-gray-600 text-sm mb-1">Password</label>
             <input
-            name='password'
+              name="password"
               type="password"
               required
               placeholder="••••••••"
@@ -74,7 +80,10 @@ createUser(email , password).then((result)=>{
           </button>
         </form>
         <p className="mt-4 text-center text-sm text-gray-600">
-          Already have an account? <Link to='/login' className="text-blue-500 hover:underline">Sign in</Link>
+          Already have an account?{' '}
+          <Link to="/login" className="text-blue-500 hover:underline">
+            Sign in
+          </Link>
         </p>
       </div>
     </div>

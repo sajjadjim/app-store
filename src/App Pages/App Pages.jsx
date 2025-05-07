@@ -3,10 +3,10 @@ import CaroselAppPage from './CaroselAppPage'
 import { useLoaderData } from 'react-router'
 import { TiStarFullOutline } from "react-icons/ti";
 import { Link } from 'react-router';
+import { RiInformationLine } from "react-icons/ri";
 function AppPages() {
     // Fetch the all app Data Here 
     const data = useLoaderData()
-    // console.log(data)
 
     // trending app Find Here----------------- Trending APpp Filter by Rating 5 base 
     const [trendApp, setTrendApp] = useState([])
@@ -60,13 +60,13 @@ function AppPages() {
                 {/* trensding app show here  */}
                 <div>
                     <h1 className='font-bold text-xl'>Trending App</h1>
-                    <div className='grid md:grid-cols-7 grid-cols-3 justify-between my-2'>
+                    <div className='grid md:grid-cols-7 md:gap-4  grid-cols-2 justify-between my-2'>
                         {
-                            trendApp.map((app, index) => <div key={index} >
+                            trendApp.map((app, index) => <div className='rounded-xl p-2 shadow-xl transition-transform duration-300 hover:scale-105' key={index} >
                                 <Link to={`/app-details/${app.id}`}>
                                 <img className='rounded-2xl h-30 w-30' src={app.banner} alt="trendsAPp" />
                                 <p className='font-bold text-lg'>{app.name}</p>
-                                <p>{app.developer}</p>
+                                <p className='flex justify-between items-center'>{app.developer} <RiInformationLine /></p>
                                 </Link>
                             </div>)
                         }
@@ -76,9 +76,9 @@ function AppPages() {
                  {/* Social app show here  */}
                  <div className='my-10'>
                     <h1 className='font-bold text-xl'>Social App</h1>
-                    <div className='grid md:grid-cols-7 grid-cols-3  justify-between my-2'>
+                    <div className='grid md:grid-cols-7 md:gap-4 grid-cols-2  justify-between my-2'>
                         {
-                            socialApp.map((app, index) => <div key={index}>
+                            socialApp.map((app, index) => <div className='rounded-xl p-2 shadow-xl transition-transform duration-300 hover:scale-105' key={index}>
                                 <Link to={`/app-details/${app.id}`}>
                                 <img className='rounded-2xl h-30 w-30' src={app.banner} alt="trendsAPp" />
                                 <p className='font-bold text-lg'>{app.name}</p>
@@ -92,9 +92,9 @@ function AppPages() {
                  {/* Social app show here  */}
                  <div className='my-10'>
                     <h1 className='font-bold text-xl'>Social App</h1>
-                    <div className='grid md:grid-cols-7 grid-cols-3 justify-between my-2'>
+                    <div className='grid md:grid-cols-7 md:gap-4 grid-cols-2 justify-between my-2'>
                         {
-                            gameApp.map((app, index) => <div key={index}>
+                            gameApp.map((app, index) => <div className='rounded-xl p-2 shadow-xl transition-transform duration-300 hover:scale-105' key={index}>
                                 <Link to={`/app-details/${app.id}`}>
                                 <img className='rounded-2xl h-30 w-30' src={app.banner} alt="trendsAPp" />
                                 <p className='font-bold text-lg'>{app.name}</p>
@@ -107,9 +107,9 @@ function AppPages() {
                                  {/* Educational app show here  */}
                                  <div className='my-10'>
                     <h1 className='font-bold text-xl'>Educational App</h1>
-                    <div className='grid md:grid-cols-7 grid-cols-3   my-2'>
+                    <div className='grid md:grid-cols-7 md:gap-4 grid-cols-2   my-2'>
                         {
-                            educationalApp.map((app, index) => <div key={index}>
+                            educationalApp.map((app, index) => <div className='rounded-xl p-2 shadow-xl transition-transform duration-300 hover:scale-105' key={index}>
                                 <Link to={`/app-details/${app.id}`}>
                                 <img className='rounded-2xl h-30 w-30' src={app.banner} alt="trendsAPp" />
                                 <p className='font-bold text-lg'>{app.name}</p>
@@ -122,14 +122,17 @@ function AppPages() {
                 {/* Productivity app show here  */}
                 <div className='my-10'>
                     <h1 className='font-bold text-xl'>Educational App</h1>
-                    <div className='grid md:grid-cols-7 grid-cols-3  justify-between my-2'>
+                    <div className='grid md:grid-cols-7 grid-cols-2 md:gap-4  justify-between my-2'>
                         {
-                            productivityApp.map((app, index) => <div key={index}>
+                            productivityApp.map((app, index) => <div className='rounded-xl p-2 shadow-xl  transition-transform duration-300 hover:scale-105' key={index}>
                                <Link to={`/app-details/${app.id}`}> <img className='rounded-2xl h-30 w-30' src={app.banner} alt="trendsAPp" />
                                 <p className='font-bold text-lg'>{app.name}</p>
                                 <p>{app.developer}</p>
                                 <p className='flex gap-1 items-center'>{app.rating}<TiStarFullOutline></TiStarFullOutline></p>
-                                </Link></div>)
+                                </Link>
+                                </div>
+                                )
+                                
                         }
                     </div>
                 </div>
@@ -137,5 +140,4 @@ function AppPages() {
         </div>
     )
 }
-
 export default AppPages

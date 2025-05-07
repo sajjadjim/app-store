@@ -2,7 +2,7 @@ import React, { use, useState } from 'react'
 import Footer from '../Components/Footer/Footer'
 import { AuthContext_File } from '../Provider/AuthProvider'
 import { CiStar } from "react-icons/ci";
-import Navbar from '../Components/Navbar/Navbar';
+import Navbar from '../Components/NavBar/Navbar';
 import { updateProfile } from 'firebase/auth';
 import { FaUserCircle } from "react-icons/fa";
 function UserProfile() {
