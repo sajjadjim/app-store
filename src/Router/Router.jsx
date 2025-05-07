@@ -16,7 +16,7 @@ const Routers = createBrowserRouter([
         {
           path:'/app'
           ,Component:AppPages,
-          loader: ()=>fetch('/public/app.json')
+          loader: ()=>fetch('/app.json')
         }
       ]
     },
@@ -25,7 +25,7 @@ const Routers = createBrowserRouter([
       ,element:<PrivateRoute>
         <AppDetails></AppDetails>
       </PrivateRoute>,
-      loader: ()=> fetch('/public/app.json')
+      loader: ()=> fetch('/app.json')
     },
     {
       path:'/login'
