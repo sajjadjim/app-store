@@ -53,6 +53,16 @@ function Footer() {
         </svg>
       </a>
     </div>
+      <fieldset className="w-auto grid gap-2">
+          <label>Enter your email address</label>
+          <div className="join">
+            <input
+              type="text"
+              placeholder="username@site.com"
+              className="input input-bordered join-item" />
+            <button className="btn btn-primary join-item">Subscribe</button>
+          </div>
+        </fieldset>
   </nav>
 </footer>
     )
